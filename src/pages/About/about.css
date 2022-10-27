@@ -37,7 +37,7 @@
 
 .chapter1 {
   aspect-ratio: 200/113;
-  width: 45%;
+  width: 40%;
   background: url("/public/images/about-2.jpg") center no-repeat;
   background-size: cover;
   border-radius: 15px;
@@ -45,7 +45,7 @@
 }
 .chapter2 {
   aspect-ratio: 250/167;
-  width: 45%;
+  width: 40%;
   background: url("/public/images/about-3.jpg") center no-repeat;
   background-size: cover;
   border-radius: 15px;
@@ -54,7 +54,7 @@
 }
 .chapter3 {
   aspect-ratio: 63/50;
-  width: 45%;
+  width: 35%;
   background: url("/public/images/about-1.jpg") center no-repeat;
   background-size: cover;
   border-radius: 15px;
@@ -63,7 +63,7 @@
 .chapter4 {
   margin-top: 50px;
   aspect-ratio: 1/1;
-  width: 45%;
+  width: 35%;
   background: url("/public/images/about-4.png") center no-repeat;
   background-size: cover;
   border-radius: 15px;
