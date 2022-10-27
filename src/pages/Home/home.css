@@ -1,0 +1,131 @@
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: linear-gradient(
+      30deg,
+      rgba(0, 0, 0, 0.15) 100%,
+      rgba(0, 212, 255, 0) 100%
+    ),
+    url("/public/images/home-screen.jpg") center no-repeat;
+  background-size: cover;
+  margin-top: -80px;
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sloganContainer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.slogan1 {
+  font-size: 100px;
+  text-align: center;
+}
+.slogan2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+.filterContainer {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(5.5px);
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 100px;
+  gap: 15px;
+  padding: 10px 15px;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 10px;
+  width: 210px;
+}
+.filterName {
+  font-size: 16px;
+  color: #6d6d6d;
+}
+.filterHelper {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+.filterButton {
+  background: linear-gradient(
+    30deg,
+    rgba(255, 89, 76, 1) 14%,
+    rgba(250, 197, 39, 1) 100%
+  );
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 26px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  width: 235px;
+}
+.downArrow_home {
+  margin-bottom: -100px;
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .homeContainer {
+    margin-top: 0;
+  }
+  .slogan1 {
+    font-size: 50px;
+  }
+  .slogan2 {
+    font-size: 20px;
+  }
+  .filterContainer {
+    flex-direction: column;
+  }
+  .wave {
+    display: none;
+  }
+
+  .filterContainer {
+    width: 90%;
+    margin-bottom: -30px;
+  }
+  .filter {
+    padding: 6px 10px;
+    width: 95%;
+    border-radius: 10px;
+  }
+  .filterName {
+    font-size: 12px;
+  }
+  .filterHelper {
+    font-size: 18px;
+  }
+  .filterButton {
+    font-size: 20px;
+    height: 50px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .downArrowHolder {
+    display: none;
+  }
+}

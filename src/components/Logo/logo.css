@@ -1,0 +1,22 @@
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  color: #ffffff;
+}
+.dark {
+  color: #000000;
+}
+.logo > span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 0.8;
+}
+@media screen and (max-width: 1100px) {
+  .logo {
+    white-space: nowrap;
+  }
+  .footerLogoStyling {
+    font-size: 20px !important;
+  }
+}
